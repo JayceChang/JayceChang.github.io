@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Maven Day 1]]></title>
+    <url>%2F2018%2F12%2F18%2FMaven-Day-1%2F</url>
+    <content type="text"><![CDATA[Maven introductionmaven是一个用于构建和管理项目的工具。 使用maven的好处 构建过程简单 统一的构建系统 透明迁移]]></content>
+      <categories>
+        <category>project build</category>
+      </categories>
+      <tags>
+        <tag>maven</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Mr's Blog]]></title>
     <url>%2F2018%2F12%2F10%2Ftest-my-site%2F</url>
     <content type="text"></content>

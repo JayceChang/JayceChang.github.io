@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jchang.coding.me/"/>
-  <updated>2018-12-17T02:02:53.762Z</updated>
+  <updated>2018-12-18T11:25:13.713Z</updated>
   <id>https://jchang.coding.me/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Maven Day 1</title>
+    <link href="https://jchang.coding.me/2018/12/18/Maven-Day-1/"/>
+    <id>https://jchang.coding.me/2018/12/18/Maven-Day-1/</id>
+    <published>2018-12-18T10:36:21.000Z</published>
+    <updated>2018-12-18T11:25:13.713Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/user/maven.png"></p><h2 id="Maven-introduction"><a href="#Maven-introduction" class="headerlink" title="Maven introduction"></a>Maven introduction</h2><p><em>maven是一个用于构建和管理项目的工具。</em></p><h2 id="使用maven的好处"><a href="#使用maven的好处" class="headerlink" title="使用maven的好处"></a>使用maven的好处</h2><blockquote><ul><li>构建过程简单</li><li>统一的构建系统</li><li>透明迁移</li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;/user/maven.png&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Maven-introduction&quot;&gt;&lt;a href=&quot;#Maven-introduction&quot; class=&quot;headerlink&quot; title=&quot;Maven introduction&quot;&gt;&lt;
+      
+    
+    </summary>
+    
+      <category term="project build" scheme="https://jchang.coding.me/categories/project-build/"/>
+    
+    
+      <category term="maven" scheme="https://jchang.coding.me/tags/maven/"/>
+    
+  </entry>
   
   <entry>
     <title>Mr&#39;s Blog</title>
