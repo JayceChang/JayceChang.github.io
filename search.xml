@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Maven Day 1]]></title>
     <url>%2F2018%2F12%2F18%2FMaven-Day-1%2F</url>
-    <content type="text"><![CDATA[Maven 介绍 Maven 简介maven是一个用于构建和管理项目的工具。 Maven 特点 构建过程简单 统一的构建系统 透明迁移]]></content>
+    <content type="text"><![CDATA[Maven 系统构建和管理的利器 Maven 简介maven是一个用于构建和管理项目的工具 Maven 特点 构建过程简单 统一的构建系统 透明迁移 … Maven 安装安装以及配置略(自行google)。配置好以后，打开命令行运行：1mvn --version 如果配置的没有问题，那么你应该可以看到以下的输出：12345Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T20:41:47+02:00)Maven home: D:\apache-maven-3.6.0\bin\..Java version: 1.8.0_161, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk1.8.0_161\jreDefault locale: nl_NL, platform encoding: Cp1252OS name: "windows 7", version: "6.1", arch: "amd64", family: "windows" Maven 使用我们可以在任何目录下创建一个maven项目。打开命令行运行： 1mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false 然后你应该可以看到一个my-app的文件夹。这个文件夹就是一个标准的maven项目。进入目录： 1cd my-app 我们展开项目的目录结构： 123456789101112131415my-app|-- pom.xml`-- src |-- main | `-- java | `-- com | `-- mycompany | `-- app | `-- App.java `-- test `-- java `-- com `-- mycompany `-- app `-- AppTest.java src/main/java 目录包含项目所有的代码，src/test/java目录包含了所有的测试的代码，pom.xml文件是所有maven项目的一个标志性标识。即Project Object Model（项目对象模型）描述文件。 Maven 生命周期 validate 校验项目是否正确 compile 编译项目所有的代码 test 使用测试框架(junit)测试 package 把所有编译好的代码打成一个指定格式的包 intergration-test 集成测试 verify 验证项目的合法性 install 安装一个指定格式的包到本地仓库 deploy 部署一个指定格式的包到远程仓库]]></content>
       <categories>
         <category>project build</category>
       </categories>

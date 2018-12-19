@@ -126,18 +126,18 @@
 
 
 
-<meta name="description" content="Maven 介绍">
+<meta name="description" content="Maven 系统构建和管理的利器">
 <meta name="keywords" content="maven">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Maven Day 1">
 <meta property="og:url" content="https://jchang.coding.me/2018/12/18/Maven-Day-1/index.html">
 <meta property="og:site_name" content="Mr Jack&#39;s Blog">
-<meta property="og:description" content="Maven 介绍">
+<meta property="og:description" content="Maven 系统构建和管理的利器">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-12-19T07:38:49.836Z">
+<meta property="og:updated_time" content="2018-12-19T11:52:26.545Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Maven Day 1">
-<meta name="twitter:description" content="Maven 介绍">
+<meta name="twitter:description" content="Maven 系统构建和管理的利器">
 
 
 
@@ -431,13 +431,35 @@
       
 
       
-        <p>Maven 介绍<br><a id="more"></a></p>
-<h2 id="Maven-简介"><a href="#Maven-简介" class="headerlink" title="Maven 简介"></a>Maven 简介</h2><p><em>maven是一个用于构建和管理项目的工具。</em></p>
+        <p>Maven 系统构建和管理的利器<br><a id="more"></a></p>
+<h2 id="Maven-简介"><a href="#Maven-简介" class="headerlink" title="Maven 简介"></a>Maven 简介</h2><p><em>maven是一个用于构建和管理项目的工具</em></p>
 <h2 id="Maven-特点"><a href="#Maven-特点" class="headerlink" title="Maven 特点"></a>Maven 特点</h2><blockquote>
 <ul>
-<li>构建过程简单</li>
-<li>统一的构建系统</li>
-<li>透明迁移</li>
+<li><strong>构建过程简单</strong></li>
+<li><strong>统一的构建系统</strong></li>
+<li><strong>透明迁移</strong></li>
+<li>…</li>
+</ul>
+</blockquote>
+<h2 id="Maven-安装"><a href="#Maven-安装" class="headerlink" title="Maven 安装"></a>Maven 安装</h2><p>安装以及配置略(自行google)。配置好以后，打开命令行运行：<br><div class="highlight-wrap" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true" data-rel=""><figure class="iseeu highlight /ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mvn <span class="comment">--version</span></span><br></pre></td></tr></table></figure></div></p>
+<p>如果配置的没有问题，那么你应该可以看到以下的输出：<br><div class="highlight-wrap" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true" data-rel=""><figure class="iseeu highlight /groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Apache Maven <span class="number">3.6</span><span class="number">.0</span> (<span class="number">97</span>c98ec64a1fdfee7767ce5ffb20918da4f719f3; <span class="number">2018</span><span class="number">-10</span><span class="number">-24</span><span class="string">T20:</span><span class="number">41</span>:<span class="number">47</span>+<span class="number">02</span>:<span class="number">00</span>)</span><br><span class="line">Maven <span class="string">home:</span> <span class="string">D:</span>\apache-maven<span class="number">-3.6</span><span class="number">.0</span>\bin\..</span><br><span class="line">Java <span class="string">version:</span> <span class="number">1.8</span><span class="number">.0</span>_161, <span class="string">vendor:</span> Oracle Corporation, <span class="string">runtime:</span> <span class="string">C:</span>\Program Files\Java\jdk1<span class="number">.8</span><span class="number">.0</span>_161\jre</span><br><span class="line">Default <span class="string">locale:</span> nl_NL, platform <span class="string">encoding:</span> Cp1252</span><br><span class="line">OS <span class="string">name:</span> <span class="string">"windows 7"</span>, <span class="string">version:</span> <span class="string">"6.1"</span>, <span class="string">arch:</span> <span class="string">"amd64"</span>, <span class="string">family:</span> <span class="string">"windows"</span></span><br></pre></td></tr></table></figure></div></p>
+<h2 id="Maven-使用"><a href="#Maven-使用" class="headerlink" title="Maven 使用"></a>Maven 使用</h2><p>我们可以在任何目录下创建一个maven项目。打开命令行运行：</p>
+<div class="highlight-wrap" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true" data-rel=""><figure class="iseeu highlight /routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mvn archetype:generate <span class="attribute">-DgroupId</span>=com.mycompany.app <span class="attribute">-DartifactId</span>=my-app <span class="attribute">-DarchetypeArtifactId</span>=maven-archetype-quickstart <span class="attribute">-DarchetypeVersion</span>=1.4 <span class="attribute">-DinteractiveMode</span>=<span class="literal">false</span></span><br></pre></td></tr></table></figure></div>
+<p>然后你应该可以看到一个my-app的文件夹。这个文件夹就是一个标准的maven项目。进入目录：</p>
+<div class="highlight-wrap" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true" data-rel=""><figure class="iseeu highlight /stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">cd</span> my-<span class="keyword">app</span></span><br></pre></td></tr></table></figure></div>
+<p>我们展开项目的目录结构：</p>
+<div class="highlight-wrap" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true" data-rel=""><figure class="iseeu highlight /applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">my</span>-app</span><br><span class="line">|<span class="comment">-- pom.xml</span></span><br><span class="line">`<span class="comment">-- src</span></span><br><span class="line">    |<span class="comment">-- main</span></span><br><span class="line">    |   `<span class="comment">-- java</span></span><br><span class="line">    |       `<span class="comment">-- com</span></span><br><span class="line">    |           `<span class="comment">-- mycompany</span></span><br><span class="line">    |               `<span class="comment">-- app</span></span><br><span class="line">    |                   `<span class="comment">-- App.java</span></span><br><span class="line">    `<span class="comment">-- test</span></span><br><span class="line">        `<span class="comment">-- java</span></span><br><span class="line">            `<span class="comment">-- com</span></span><br><span class="line">                `<span class="comment">-- mycompany</span></span><br><span class="line">                    `<span class="comment">-- app</span></span><br><span class="line">                        `<span class="comment">-- AppTest.java</span></span><br></pre></td></tr></table></figure></div>
+<p>src/main/java 目录包含项目所有的代码，src/test/java目录包含了所有的测试的代码，pom.xml文件是所有maven项目的一个标志性标识。即Project Object Model（项目对象模型）描述文件。</p>
+<h2 id="Maven-生命周期"><a href="#Maven-生命周期" class="headerlink" title="Maven 生命周期"></a>Maven 生命周期</h2><blockquote>
+<ul>
+<li><strong>validate</strong> 校验项目是否正确</li>
+<li><strong>compile</strong>  编译项目所有的代码</li>
+<li><strong>test</strong>     使用测试框架(junit)测试</li>
+<li><strong>package</strong>  把所有编译好的代码打成一个指定格式的包</li>
+<li><strong>intergration-test</strong> 集成测试</li>
+<li><strong>verify</strong>   验证项目的合法性</li>
+<li><strong>install</strong>  安装一个指定格式的包到本地仓库</li>
+<li><strong>deploy</strong>   部署一个指定格式的包到远程仓库</li>
 </ul>
 </blockquote>
 
@@ -447,7 +469,7 @@
     
     
 
-    <div>                 <div class="my_post_copyright">   <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>    <!-- JS库 sweetalert 可修改路径 -->   <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>   <p><span>本文标题:</span><a href="/2018/12/18/Maven-Day-1/">Maven Day 1</a></p>   <p><span>文章作者:</span><a href="/" title="访问 Jack 的个人博客">Jack</a></p>   <p><span>发布时间:</span>2018年12月18日 - 18:36</p>   <p><span>最后更新:</span>2018年12月19日 - 15:38</p>   <p><span>原始链接:</span><a href="/2018/12/18/Maven-Day-1/" title="Maven Day 1">https://jchang.coding.me/2018/12/18/Maven-Day-1/</a>     <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://jchang.coding.me/2018/12/18/Maven-Day-1/" aria-label="复制成功！"></i></span>   </p>   <p><span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p> </div> <script>     var clipboard = new Clipboard('.fa-clipboard');       $(".fa-clipboard").click(function(){       clipboard.on('success', function(){         swal({           title: "",           text: '复制成功',           icon: "success",           showConfirmButton: true           });         });     }); </script> 
+    <div>                 <div class="my_post_copyright">   <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>    <!-- JS库 sweetalert 可修改路径 -->   <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>   <p><span>本文标题:</span><a href="/2018/12/18/Maven-Day-1/">Maven Day 1</a></p>   <p><span>文章作者:</span><a href="/" title="访问 Jack 的个人博客">Jack</a></p>   <p><span>发布时间:</span>2018年12月18日 - 18:36</p>   <p><span>最后更新:</span>2018年12月19日 - 19:52</p>   <p><span>原始链接:</span><a href="/2018/12/18/Maven-Day-1/" title="Maven Day 1">https://jchang.coding.me/2018/12/18/Maven-Day-1/</a>     <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://jchang.coding.me/2018/12/18/Maven-Day-1/" aria-label="复制成功！"></i></span>   </p>   <p><span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p> </div> <script>     var clipboard = new Clipboard('.fa-clipboard');       $(".fa-clipboard").click(function(){       clipboard.on('success', function(){         swal({           title: "",           text: '复制成功',           icon: "success",           showConfirmButton: true           });         });     }); </script> 
         </div>
 
     
@@ -678,7 +700,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Maven-简介"><span class="nav-number">1.</span> <span class="nav-text">Maven 简介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Maven-特点"><span class="nav-number">2.</span> <span class="nav-text">Maven 特点</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Maven-简介"><span class="nav-number">1.</span> <span class="nav-text">Maven 简介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Maven-特点"><span class="nav-number">2.</span> <span class="nav-text">Maven 特点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Maven-安装"><span class="nav-number">3.</span> <span class="nav-text">Maven 安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Maven-使用"><span class="nav-number">4.</span> <span class="nav-text">Maven 使用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Maven-生命周期"><span class="nav-number">5.</span> <span class="nav-text">Maven 生命周期</span></a></li></ol></div>
             
 
           </div>
