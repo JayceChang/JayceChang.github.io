@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Mr Jack&#39;s Blog</title>
   
-  <subtitle>One More</subtitle>
+  
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jchang.coding.me/"/>
