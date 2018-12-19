@@ -3,31 +3,12 @@
   <entry>
     <title><![CDATA[Maven Day 1]]></title>
     <url>%2F2018%2F12%2F18%2FMaven-Day-1%2F</url>
-    <content type="text"><![CDATA[Maven introductionmaven是一个用于构建和管理项目的工具。 使用maven的好处 构建过程简单 统一的构建系统 透明迁移]]></content>
+    <content type="text"><![CDATA[Maven 介绍 Maven 简介maven是一个用于构建和管理项目的工具。 Maven 特点 构建过程简单 统一的构建系统 透明迁移]]></content>
       <categories>
         <category>project build</category>
       </categories>
       <tags>
         <tag>maven</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Mr's Blog]]></title>
-    <url>%2F2018%2F12%2F10%2Ftest-my-site%2F</url>
-    <content type="text"></content>
-      <tags>
-        <tag>test</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2018%2F12%2F10%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
-      <categories>
-        <category>test</category>
-      </categories>
-      <tags>
-        <tag>java</tag>
       </tags>
   </entry>
 </search>
