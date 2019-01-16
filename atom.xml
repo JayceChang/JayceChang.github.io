@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jchang.coding.me/"/>
-  <updated>2018-12-21T10:42:43.227Z</updated>
+  <updated>2019-01-16T09:49:34.446Z</updated>
   <id>https://jchang.coding.me/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java-Day-1</title>
+    <link href="https://jchang.coding.me/2019/01/16/Java-Day-1/"/>
+    <id>https://jchang.coding.me/2019/01/16/Java-Day-1/</id>
+    <published>2019-01-16T09:13:46.000Z</published>
+    <updated>2019-01-16T09:49:34.446Z</updated>
+    
+    <content type="html"><![CDATA[<p>Java平台生态<br><a id="more"></a></p><h2 id="java平台"><a href="#java平台" class="headerlink" title="java平台"></a>java平台</h2><p>由于java语言天然跨平台的特性，使的我们可以很轻松的”Compile once, Run anywhere”。</p><h2 id="java的特点"><a href="#java的特点" class="headerlink" title="java的特点"></a>java的特点</h2><blockquote><ul><li><strong>面向对象</strong></li><li><strong>分布式</strong></li><li><strong>健壮性</strong></li><li><strong>安全性</strong></li><li><strong>可移植性</strong></li><li><strong>高性能</strong></li><li><strong>多线程</strong></li><li>。。。</li></ul></blockquote><p>由于Java的健壮性、使用方便、跨平台、安全性等特点，已经成为世界上使用最多的编程语言。</p><h2 id="java平台蓝图"><a href="#java平台蓝图" class="headerlink" title="java平台蓝图"></a>java平台蓝图</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Java平台生态&lt;br&gt;
+    
+    </summary>
+    
+      <category term="program language" scheme="https://jchang.coding.me/categories/program-language/"/>
+    
+    
+      <category term="java" scheme="https://jchang.coding.me/tags/java/"/>
+    
+  </entry>
   
   <entry>
     <title>Maven Day 2</title>
