@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jchang.coding.me/"/>
-  <updated>2019-01-16T10:06:41.430Z</updated>
+  <updated>2019-10-09T10:35:58.236Z</updated>
   <id>https://jchang.coding.me/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>linux-Day-1</title>
+    <link href="https://jchang.coding.me/2019/10/09/Linux-Day-1/"/>
+    <id>https://jchang.coding.me/2019/10/09/Linux-Day-1/</id>
+    <published>2019-10-09T09:13:46.000Z</published>
+    <updated>2019-10-09T10:35:58.236Z</updated>
+    
+    <content type="html"><![CDATA[<p>linux简介<br><a id="more"></a></p><h2 id="linux简介"><a href="#linux简介" class="headerlink" title="linux简介"></a>linux简介</h2><p><img src="/user/linux-day-1.jpg"><br>Linux 内核最初只是由芬兰人林纳斯·托瓦兹（Linus Torvalds）在赫尔辛基大学上学时出于个人爱好而编写的。</p><p>Linux 是一套免费使用和自由传播的类 Unix 操作系统，是一个基于 POSIX 和 UNIX 的多用户、多任务、支持多线程和多 CPU 的操作系统。</p><p>Linux 能运行主要的 UNIX 工具软件、应用程序和网络协议。它支持 32 位和 64 位硬件。Linux 继承了 Unix 以网络为核心的设计思想，是一个性能稳定的多用户网络操作系统。</p><h2 id="java的特点"><a href="#java的特点" class="headerlink" title="java的特点"></a>java的特点</h2><blockquote><ul><li><strong>面向对象</strong></li><li><strong>分布式</strong></li><li><strong>健壮性</strong></li><li><strong>安全性</strong></li><li><strong>可移植性</strong></li><li><strong>高性能</strong></li><li><strong>多线程</strong></li><li>。。。</li></ul></blockquote><p>由于Java的健壮性、使用方便、跨平台、安全性等特点，已经成为世界上使用最多的编程语言。</p><h2 id="java平台蓝图"><a href="#java平台蓝图" class="headerlink" title="java平台蓝图"></a>java平台蓝图</h2><p><img src="/user/java-platform.png"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;linux简介&lt;br&gt;
+    
+    </summary>
+    
+      <category term="program language" scheme="https://jchang.coding.me/categories/program-language/"/>
+    
+    
+      <category term="linux" scheme="https://jchang.coding.me/tags/linux/"/>
+    
+  </entry>
   
   <entry>
     <title>Java-Day-1</title>
