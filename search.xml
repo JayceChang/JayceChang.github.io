@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[linux-Day-1]]></title>
     <url>%2F2019%2F10%2F09%2FLinux-Day-1%2F</url>
-    <content type="text"><![CDATA[linux简介 linux简介Linux 内核最初只是由芬兰人林纳斯·托瓦兹（Linus Torvalds）在赫尔辛基大学上学时出于个人爱好而编写的。 Linux 是一套免费使用和自由传播的类 Unix 操作系统，是一个基于 POSIX 和 UNIX 的多用户、多任务、支持多线程和多 CPU 的操作系统。 Linux 能运行主要的 UNIX 工具软件、应用程序和网络协议。它支持 32 位和 64 位硬件。Linux 继承了 Unix 以网络为核心的设计思想，是一个性能稳定的多用户网络操作系统。 java的特点 面向对象 分布式 健壮性 安全性 可移植性 高性能 多线程 。。。 由于Java的健壮性、使用方便、跨平台、安全性等特点，已经成为世界上使用最多的编程语言。 java平台蓝图]]></content>
+    <content type="text"><![CDATA[走进Linux linux简介Linux 内核最初只是由芬兰人林纳斯·托瓦兹（Linus Torvalds）在赫尔辛基大学上学时出于个人爱好而编写的。Linux 是一套免费使用和自由传播的类 Unix 操作系统，是一个基于 POSIX 和 UNIX 的多用户、多任务、支持多线程和多 CPU 的操作系统。Linux 能运行主要的 UNIX 工具软件、应用程序和网络协议。它支持 32 位和 64 位硬件。Linux 继承了 Unix 以网络为核心的设计思想，是一个性能稳定的多用户网络操作系统。 linux的优点 稳定的系统 Linux基于UNIX的概念开发出来的操作系统。UNIX LIKE系统都具有相似的程序接口和操作方式，稳定与高效率的优点 免费 由于Linux基于GPL协议，任何人都可以获得Linux。不同于UNIX需要负担庞大的版权费用 安全性 Linux由于社区和开发者众多，可以随时获取最新的安全信息、及时更新安全漏洞 多任务，多用户 与Windows的单人多任务不同，Linux系统支持多用户，多任务的工作模式 用户与用户组的规划 Linux划分出了用户组的概念，不同的用户属于不同的用户组。方便管理 良好的可移植性 Linux系统可以运行在不同的计算机架构 linux用途由于Linux的多用户、多任务、高安全性、高可移植等优点，一般应用于服务器端操作系统。通常服务器使用 LAMP（Linux + Apache + MySQL + PHP）或 LNMP（Linux + Nginx+ MySQL + PHP）组合。也有时用于嵌入式操作系统开发。 linux内核与发行版目前Linux distributions主要区分为两大系统： 使用RPM方式安装软件的系统，比如Red Hat,Fedora,SuSe 使用Debian的dpkg的方式安装软件的系统，比如Debian,Ubuntu,B2D linux现有发行版]]></content>
       <categories>
         <category>program language</category>
       </categories>
@@ -14,7 +14,7 @@
   <entry>
     <title><![CDATA[Java-Day-1]]></title>
     <url>%2F2019%2F01%2F16%2FJava-Day-1%2F</url>
-    <content type="text"><![CDATA[Java平台生态 java平台由于java语言天然跨平台的特性，使的我们可以很轻松的”Compile once, Run anywhere”。 java的特点 面向对象 分布式 健壮性 安全性 可移植性 高性能 多线程 。。。 由于Java的健壮性、使用方便、跨平台、安全性等特点，已经成为世界上使用最多的编程语言。 java平台蓝图]]></content>
+    <content type="text"><![CDATA[Java平台生态 java平台由于java语言天然跨平台的特性，使的我们可以很轻松的”Compile once, Run anywhere”。 java的特点 面向对象 分布式 健壮性 安全性 可移植性 高性能 多线程 由于Java的健壮性、使用方便、跨平台、安全性等特点，已经成为世界上使用最多的编程语言。 java平台蓝图]]></content>
       <categories>
         <category>program language</category>
       </categories>
